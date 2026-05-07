@@ -151,7 +151,7 @@ img {
 /* Hero Section */
 .hero-section {
     height: 100vh;
-    background: url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1920') center/cover no-repeat;
+    background: url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=1920') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
