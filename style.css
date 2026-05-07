@@ -624,7 +624,27 @@ footer {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: var(--surface-color);
+        padding: 40px 20px;
+        text-align: center;
+        border-bottom: 1px solid var(--accent-color);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        margin: 15px 0;
+        font-size: 1.2rem;
+    }
+
     .menu-toggle {
         display: block;
     }
